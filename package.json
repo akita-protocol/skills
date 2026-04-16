@@ -1,0 +1,14 @@
+{
+  "name": "@akta/skills",
+  "private": true,
+  "type": "module",
+  "description": "Agent skills for the Akita protocol on Algorand",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akita-protocol/skills.git"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.js"
+  }
+}
