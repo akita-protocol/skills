@@ -1,4 +1,4 @@
-# @akta/skills
+# @akita-protocol/skills
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Agent Skills](https://img.shields.io/badge/Agent-Skills-blueviolet)](https://skills.build)
@@ -23,8 +23,8 @@ npx skills add akita-protocol/skills --skill akita-wallet-sdk
 
 | Skill | Description |
 |---|---|
-| [`akita-arc58-plugin-dev`](./skills/akita-arc58-plugin-dev/SKILL.md) | Build ARC-58 plugins for Akita abstracted account wallets using the `@akta/plugin` package (PuyaTs). Covers the mandatory `wallet`/`rekeyBack` method contract, `getSpendingAccount`, `rekeyAddress`, `itxnCompose`, and plugin E2E test fixtures. |
-| [`akita-wallet-sdk`](./skills/akita-wallet-sdk/SKILL.md) | Create and operate ARC-58 abstracted wallets with `@akta/sdk/wallet` — install plugins, manage escrows, configure flat / window / drip allowances, estimate costs with `prepare.usePlugin`, and pre-authorize batches via execution keys. |
+| [`akita-arc58-plugin-dev`](./skills/akita-arc58-plugin-dev/SKILL.md) | Build ARC-58 plugins for Akita abstracted account wallets using the `@akita-protocol/plugin` package (PuyaTs). Covers the mandatory `wallet`/`rekeyBack` method contract, `getSpendingAccount`, `rekeyAddress`, `itxnCompose`, and plugin E2E test fixtures. |
+| [`akita-wallet-sdk`](./skills/akita-wallet-sdk/SKILL.md) | Create and operate ARC-58 abstracted wallets with `@akita-protocol/sdk/wallet` — install plugins, manage escrows, configure flat / window / drip allowances, estimate costs with `prepare.usePlugin`, and pre-authorize batches via execution keys. |
 | [`akita-social-stack`](./skills/akita-social-stack/SKILL.md) | Use the four Akita social contracts (`Social`, `SocialGraph`, `SocialImpact`, `SocialModeration`) and `SocialPluginSDK` for on-chain posts, votes, reactions, follows, impact scoring, and moderation. |
 | [`akita-connect`](./skills/akita-connect/SKILL.md) | Implement the Akita Connect protocol — a `liquid://` URI + request/response handshake for cross-device agent and plugin installation on an ARC-58 wallet. |
 

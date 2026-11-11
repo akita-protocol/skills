@@ -1,5 +1,5 @@
 {
-  "name": "@akta/skills",
+  "name": "@akita-protocol/skills",
   "private": true,
   "type": "module",
   "description": "Agent skills for the Akita protocol on Algorand",
